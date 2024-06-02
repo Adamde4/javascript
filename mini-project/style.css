@@ -1,0 +1,23 @@
+body {
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.container_information{
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+}
+button {
+    background: #ffffff;
+    font-weight: 800;
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}

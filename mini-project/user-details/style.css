@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-user {
+    text-align: center;
+    width: 90%;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+.btnMainPostInfo {
+    width: 90%;
+    height: 10vh;
+    background: #ffffff;
+    color: #444444;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    font-size: 2.5em;
+}
+
+ul {
+    padding: 0;
+    font-size: 1.4em;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    margin: 0;
+}
+
+.user-posts {
+    width: 90%;
+    background-color: gainsboro;
+    border-radius: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.post-title {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
